@@ -103,7 +103,6 @@
 
 @media screen and (max-width: 700px) {
   .about > .progress-bar-item {
-    /* padding-left: 1rem !important ; */
     grid-template-columns: auto;
   }
 
