@@ -218,4 +218,66 @@
     font-size: 1.8rem;
   }
 }
+/* Contact */
+@media screen and (max-width: 950px) {
+  .contact-me .contact-all-container .Contact-container .header p {
+    width: 100%;
+  }
+  .contact-me .contact-all-container {
+    margin: 0 2rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-me > .main-titel > h1 {
+    font-size: 4.5rem;
+  }
+  .contact-me > .main-titel > h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-all-container .Contact-container .header h1 {
+    font-size: 1.5rem !important;
+  }
+  .contact-all-container .Contact-container .header p {
+    font-size: 0.8rem !important;
+  }
+  .contact-item .contact-icon i {
+    font-size: 0.8rem !important;
+  }
+  .contact-item .contact-icon span {
+    font-size: 0.7rem !important;
+  }
+  .contact-item .contact-Description p {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contact-me .contact-all-container .Contact-item-all .contact-item {
+    grid-template-columns: auto;
+    margin: 1.5rem 0;
+  }
+
+  .contact-me
+    .contact-all-container
+    .Contact-item-all
+    .contact-item
+    .contact-icon {
+    margin: 1rem 0rem;
+    justify-content: flex-start;
+  }
+  .contact-me .contact-all-container .btn-don-contact a {
+    font-size: 0.8rem;
+  }
+
+  .contact-me > .main-titel > h1 {
+    font-size: 3rem;
+  }
+  .contact-me > .main-titel > h2 {
+    font-size: 1.8rem;
+  }
+}
 
