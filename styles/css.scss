@@ -451,7 +451,6 @@ body {
   width: 100%;
   height: 100%;
 
-
   .portfolio-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -478,7 +477,7 @@ body {
   }
   .portfolio-hover {
     background-color: var(--color-green);
-    opacity: .9;
+    opacity: 0.9;
     width: 20rem;
     height: 20rem;
     border: none;
@@ -486,7 +485,6 @@ body {
     display: none;
     position: relative;
     transition: 3s ease-in-out;
-  
 
     h3 {
       display: flex;
@@ -521,7 +519,7 @@ body {
   }
 }
 
-// Contact me //
+// contact me //
 
 .contact-me {
   position: relative;
@@ -532,7 +530,7 @@ body {
     margin: 0 6rem;
     margin-bottom: 5rem;
     width: 80%;
-    .Contact-container {
+    .contact-container {
       .header {
         padding: 2rem 0;
         h1 {
@@ -570,7 +568,7 @@ body {
           }
         }
 
-        .contact-Description{
+        .contact-Description {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -599,7 +597,6 @@ body {
       }
     }
 
-  
     .btn-don-contact {
       padding-top: 2rem;
       font-size: 1.3rem;

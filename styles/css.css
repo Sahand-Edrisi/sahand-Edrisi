@@ -510,15 +510,15 @@ body {
   margin-bottom: 5rem;
   width: 80%;
 }
-.contact-me .contact-all-container .Contact-container .header {
+.contact-me .contact-all-container .contact-container .header {
   padding: 2rem 0;
 }
-.contact-me .contact-all-container .Contact-container .header h1 {
+.contact-me .contact-all-container .contact-container .header h1 {
   color: var(--color-gray1);
   text-transform: uppercase;
   font-size: 2rem;
 }
-.contact-me .contact-all-container .Contact-container .header p {
+.contact-me .contact-all-container .contact-container .header p {
   color: var(--color-gray1);
   padding-top: 2rem;
   font-size: 1.1rem;
