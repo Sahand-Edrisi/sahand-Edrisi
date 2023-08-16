@@ -506,10 +506,9 @@ body {
   height: 100%;
 }
 .contact-me .contact-all-container {
-  display: grid;
-  justify-content: space-around;
   margin: 0 6rem;
   margin-bottom: 5rem;
+  width: 80%;
 }
 .contact-me .contact-all-container .Contact-container .header {
   padding: 2rem 0;
@@ -523,37 +522,36 @@ body {
   color: var(--color-gray1);
   padding-top: 2rem;
   font-size: 1.1rem;
-  width: 80%;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item {
+.contact-me .contact-all-container .contact-item-all .contact-item {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon {
+.contact-me .contact-all-container .contact-item-all .contact-item .contact-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon i {
+.contact-me .contact-all-container .contact-item-all .contact-item .contact-icon i {
   color: var(--color-gray1);
   font-size: 1.1rem;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item .contact-icon span {
+.contact-me .contact-all-container .contact-item-all .contact-item .contact-icon span {
   color: var(--color-gray1);
   font-weight: 400;
   font-size: 0.8rem;
   margin-left: 1rem;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item .contact-Description {
+.contact-me .contact-all-container .contact-item-all .contact-item .contact-Description {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: start;
   width: 12rem;
 }
-.contact-me .contact-all-container .Contact-item-all .contact-item .contact-Description p {
+.contact-me .contact-all-container .contact-item-all .contact-item .contact-Description p {
   color: var(--color-gray1);
   font-weight: 400;
   font-size: 0.8rem;
