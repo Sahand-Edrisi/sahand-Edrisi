@@ -46,18 +46,18 @@ homeClick.addEventListener("click", () => {
   if (home.style.display === "none") {
     about.style.display = "none";
     portfolio.style.display = "none";
-
     contactMe.style.display = "none";
     home.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 aboutClick.addEventListener("click", () => {
   if (about.style.display === "none") {
     home.style.display = "none";
     portfolio.style.display = "none";
-
     contactMe.style.display = "none";
     about.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
@@ -65,9 +65,9 @@ portfolioClick.addEventListener("click", () => {
   if (portfolio.style.display === "none") {
     home.style.display = "none";
     about.style.display = "none";
-
     contactMe.style.display = "none";
     portfolio.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
@@ -76,8 +76,8 @@ contactMeClick.addEventListener("click", () => {
     home.style.display = "none";
     portfolio.style.display = "none";
     about.style.display = "none";
-
     contactMe.style.display = "block";
+    window.scrollTo(0, 0);
   }
 });
 
