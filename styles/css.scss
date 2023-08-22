@@ -356,7 +356,7 @@ body {
           border: 2px solid var(--color-green);
           width: 80%;
         }
-        .line-progress-roy-JS {
+        .line-progress-roy-js {
           border: 2px solid var(--color-green);
           width: 50%;
         }
@@ -364,13 +364,21 @@ body {
           border: 2px solid var(--color-green);
           width: 10%;
         }
-        .line-progress-roy-SASS {
+        .line-progress-roy-sass {
           border: 2px solid var(--color-green);
           width: 60%;
         }
-        .line-progress-roy-Git {
+        .line-progress-roy-git {
           border: 2px solid var(--color-green);
           width: 40%;
+        }
+        .line-progress-roy-bootstrap {
+          border: 2px solid var(--color-green);
+          width: 30%;
+        }
+        .line-progress-roy-responsive {
+          border: 2px solid var(--color-green);
+          width: 80%;
         }
       }
     }
@@ -393,7 +401,7 @@ body {
       display: flex;
       margin-top: 2rem;
       width: 23rem;
-      height: 25rem;
+      height: 22rem;
       .tl-icon {
         color: var(--color-gray1);
         i {
@@ -409,11 +417,11 @@ body {
         margin-left: 1.5rem;
         border: 1px solid var(--color-gray5);
         width: 1px;
-        height: 25rem;
+        height: 20rem;
       }
       .Date {
         height: 2rem;
-        color: var(--color-gray1);
+        color: var(--color-gray2);
         font-size: 1rem;
         margin: 0.7rem 1.5rem;
         padding: 0.2rem 0.4rem;
@@ -437,7 +445,12 @@ body {
           width: 20rem;
           padding: 1rem 0;
           font-size: 1.2rem;
-          color: var(--color-gray4);
+          color: var(--color-gray1);
+          span {
+            color: var(--color-gray1);
+            font-size: 1.3rem;
+            font-weight: 600;
+          }
         }
       }
     }
