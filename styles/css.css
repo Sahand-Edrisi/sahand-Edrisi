@@ -450,7 +450,7 @@ body {
 }
 .portfolio .portfolio-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   margin: 0rem 5rem;
   margin-bottom: 8rem;
   justify-content: space-evenly;
