@@ -104,11 +104,9 @@ body {
 }
 
 // home //
-
 .home {
   overflow: hidden;
   height: 100%;
-  width: 100%;
   .container-home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -387,8 +385,7 @@ body {
 
   .timeline-item {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 10rem;
     width: 100%;
     .transform {
