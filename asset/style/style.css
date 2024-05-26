@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--spanTextColor);
+  border-radius: 10px;
+}
+
+:root {
+  --backgroundColor: #ecdddd;
+  --textColor: #dfd7d7;
+  --spanTextColor: #669116;
+  --backgroundColor: #403535;
+  --iconColor: #d6d2d2;
+  --gray: #121010;
+  --menubarBagCol: #474343;
+}
+
+.main {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  margin-left: 50px;
+}
+
+.backgroundImg {
+  position: absolute;
+}
+.backgroundImg img {
+  width: 100%;
+  height: 120%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+}
+
+.title {
+  border-bottom: 2px solid var(--spanTextColor);
+  padding: 20px 0px;
+  margin: 0 50px;
+  text-align: center;
+  font-weight: 900;
+  color: var(--textColor);
+  text-shadow: 1px 1px 10px #669116, 1px 1px 10px #669116;
+}
+
+.cv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cv a {
+  text-decoration: none;
+}
+.cv button {
+  border-radius: 50px;
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  padding: 10px 15px;
+  background-color: var(--gray);
+  color: var(--spanTextColor);
+  font-size: 15px;
+  border: 2px solid var(--backgroundColor);
+  cursor: pointer;
+  transition: all 1s ease-in;
+  font-weight: 900;
+  text-shadow: 1px 1px 10px var(--spanTextColor), 1px 1px 10px var(--spanTextColor);
+}
+.cv button:hover {
+  transition: all 1s ease-out;
+  background-color: var(--spanTextColor);
+  color: var(--gray);
+  text-shadow: 1px 1px 10px var(--gray), 1px 1px 10px var(--gray);
+}
+
+.menubar {
+  z-index: 105;
+  background-color: var(--menubarBagCol);
+  position: absolute;
+  height: 100%;
+}
+.menubar .menubarItem {
+  position: fixed;
+  height: 110%;
+  width: 50px;
+  background-color: var(--menubarBagCol);
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  padding: 10px 0;
+}
+.menubar .menubarItem a {
+  text-decoration: none;
+}
+.menubar .menubarItem a i {
+  border: 1px solid var(--iconColor);
+  color: var(--iconColor);
+  border-radius: 50%;
+  padding: 8px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-shadow: 0px 0px 20px var(--spanTextColor), 0px 0px 20px var(--spanTextColor);
+}
+
+.Item {
+  display: none;
+  position: fixed;
+}
+.Item .items {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50px;
+  height: 350px;
+  width: 60px;
+  background-color: var(--gray);
+  border-radius: 20px;
+}
+.Item .items a {
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 5px;
+}
+.Item .items a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--spanTextColor);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  color: var(--textColor);
+  text-shadow: 0px 0px 20px var(--spanTextColor), 0px 0px 20px var(--spanTextColor);
+}
+.Item .items i:hover {
+  color: var(--spanTextColor);
+  border: 1px solid var(--textColor);
+}
+
+.home {
+  margin: 20px 0;
+  width: 80%;
+  padding: 15px 15px;
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .bacImgMyPic {
+  margin: 0 15px;
+  background-color: var(--gray);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home .bacImgMyPic img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .myName {
+  transition: all 2s ease-in-out;
+  border: 5px solid var(--gray);
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: start;
+}
+.home .myName p {
+  color: var(--textColor);
+  font-size: 25px;
+}
+.home .myName p span {
+  font-weight: 900;
+  color: var(--spanTextColor);
+}
+
+.aboutMe {
+  width: 80%;
+  text-align: center;
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+}
+.aboutMe .PersonalInformation p {
+  text-align: start;
+  padding: 25px 45px;
+  font-size: 25px;
+  color: var(--textColor);
+}
+
+.mySkills {
+  background-color: var(--backgroundColor);
+  width: 80%;
+  margin: 15px 0px;
+  border-radius: 20px;
+}
+.mySkills .mySkillsItem {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mySkills .mySkillsItem img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+.myTimeline {
+  width: 80%;
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  margin: 15px 0px;
+}
+.myTimeline .myTimelineItem {
+  display: grid;
+  justify-content: space-around;
+}
+.myTimeline .myTimelineItem .InnovatioCenter,
+.myTimeline .myTimelineItem .Zavie {
+  padding: 20px 70px;
+  border-top: 3px solid var(--spanTextColor);
+  border-bottom: 3px solid var(--spanTextColor);
+  border-radius: 65px;
+  margin: 20px 0px;
+}
+.myTimeline .myTimelineItem .InnovatioCenter h2,
+.myTimeline .myTimelineItem .Zavie h2 {
+  color: var(--textColor);
+  font-weight: 900;
+  font-size: 25px;
+  padding: 10px 0;
+  text-align: center;
+}
+.myTimeline .myTimelineItem .InnovatioCenter h1,
+.myTimeline .myTimelineItem .Zavie h1 {
+  color: var(--textColor);
+  padding: 0 10px;
+  text-align: center;
+}
+.myTimeline .myTimelineItem .InnovatioCenter p,
+.myTimeline .myTimelineItem .Zavie p {
+  color: var(--textColor);
+  font-size: 15px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.myPortfolio {
+  width: 80%;
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  margin: 15px 0px;
+}
+.myPortfolio .items {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+.myPortfolio .items img {
+  margin: 20px 0px;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid var(--spanTextColor);
+  border-radius: 50px;
+}
+.myPortfolio .items .icon-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.myPortfolio .items .icon-links a {
+  text-decoration: none;
+}
+.myPortfolio .items .icon-links i {
+  font-size: 35px;
+  border: 1px solid var(--iconColor);
+  color: var(--iconColor);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 20px var(--spanTextColor), 0px 0px 20px var(--spanTextColor);
+}
+.myPortfolio .items .languages {
+  display: flex;
+  justify-content: space-around;
+}
+.myPortfolio .items .languages img {
+  width: 40px;
+  height: 40px;
+}
+.myPortfolio .items .sample-personal,
+.myPortfolio .items .sample-myBlogs,
+.myPortfolio .items .sample-calculator {
+  border-right: 3px solid var(--spanTextColor);
+  border-left: 3px solid var(--spanTextColor);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+.MyContact {
+  width: 80%;
+  background-color: var(--backgroundColor);
+  border-radius: 20px;
+  margin: 15px 0px;
+}
+.MyContact .items {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.MyContact .items .MyContactItems {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px;
+  width: 100%;
+  border-bottom: 1px solid var(--spanTextColor);
+  border-top: 1px solid var(--spanTextColor);
+  border-radius: 50px;
+}
+.MyContact .items .MyContactItems i {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid var(--textColor);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  font-size: 30px;
+  color: var(--textColor);
+  margin: 0px 20px;
+  text-shadow: 0px 0px 20px var(--spanTextColor), 0px 0px 20px var(--spanTextColor);
+}
+.MyContact .items .MyContactItems h2 {
+  cursor: default;
+  margin-right: 15px;
+  color: var(--textColor);
+}
+.MyContact .items .sotioalMediya {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MyContact .items .sotioalMediya .icons {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.MyContact .items .sotioalMediya .icons a {
+  text-decoration: none;
+}
+.MyContact .items .sotioalMediya .icons a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--spanTextColor);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  color: var(--textColor);
+  text-shadow: 0px 0px 20px var(--spanTextColor), 0px 0px 20px var(--spanTextColor);
+}
+
+#persian {
+  display: none;
+}
+#persian .aboutMe .PersonalInformation p {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */

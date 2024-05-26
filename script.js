@@ -40,7 +40,6 @@ const portfolio = document.getElementById("portfolio");
 const contactMeClick = document.getElementById("contactMeClick");
 const contactMe = document.getElementById("contactMe");
 
-console.log(homeClick);
 
 homeClick.addEventListener("click", () => {
   if (home.style.display === "none") {
@@ -85,9 +84,9 @@ contactMeClick.addEventListener("click", () => {
 
 const transforms = document.querySelectorAll(".transform");
 
-window.addEventListener("scroll", Showtransform);
+window.addEventListener("scroll", ShowTransform);
 
-function Showtransform() {
+function ShowTransform() {
   const rtiggerBotttm = window.innerHeight / 1.01;
 
   transforms.forEach((transform) => {

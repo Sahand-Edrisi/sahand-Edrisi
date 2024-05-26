@@ -1,0 +1,472 @@
+/* 1100px */
+
+@media screen and (max-width: 1100px) {
+
+  .title {
+    font-size: 18px;
+  }
+  /* home */
+  .home .bacImgMyPic {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .home .bacImgMyPic img {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .myName p {
+    font-size: 18px !important;
+  }
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    font-size: 18px !important;
+  }
+
+  /* myPortfolio */
+  .myPortfolio img {
+    height: 150px !important;
+  }
+  .myPortfolio .languages img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  /* my Contact */
+  .MyContact .MyContactItems i {
+    font-size: 25px !important;
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 18px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* 950px */
+
+@media screen and (max-width: 950px) {
+
+  .title {
+    font-size: 12px;
+  }
+  /* home */
+  .home .myName{
+    padding: 15px !important;
+  }
+  .myName p {
+    font-size: 17px !important;
+  }
+  /* myTimeline */
+  .myTimeline .myTimelineItem .InnovatioCenter {
+    padding: 20px 50px !important;
+  }
+  .myTimeline .myTimelineItem .Zavie {
+    padding: 20px 50px;
+  }
+  /* myPortfolio */
+  .myPortfolio img {
+    height: 120px !important;
+  }
+  /* my Contact */
+  .MyContact .MyContactItems i {
+    font-size: 25px !important;
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 18px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* 900px */
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 14px;
+  }
+  /* home */
+  .home{
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  .home .bacImgMyPic {
+    margin: 20px 0px;
+  }
+
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    font-size: 18px !important;
+  }
+  /* myTimeline */
+  .myTimeline .myTimelineItem h2 {
+    font-size: 20px !important;
+  }
+  .myTimeline .myTimelineItem h1 {
+    font-size: 25px !important;
+  }
+  .myTimeline .myTimelineItem .InnovatioCenter {
+    padding: 20px 30px !important;
+  }
+  .myTimeline .myTimelineItem .Zavie {
+    padding: 20px 30px;
+  }
+
+  /* myPortfolio */
+  .myPortfolio img {
+    height: 120px !important;
+  }
+  .myPortfolio .languages img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  /* my Contact */
+  .MyContact .MyContactItems i {
+    font-size: 25px !important;
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 15px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* 800px */
+
+@media screen and (max-width: 800px) {
+  .home,
+  .aboutMe,
+  .mySkills,
+  .myTimeline,
+  .myPortfolio,
+  .MyContact {
+    width: 75%;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .myName p {
+    font-size: 16px !important;
+  }
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    font-size: 15px !important;
+  }
+  /* my skill */
+  .mySkills .mySkillsItem img {
+    width: 40px;
+    height: 40px;
+  }
+  /* myTimeline */
+  .myTimeline .myTimelineItem h2 {
+    font-size: 18px !important;
+  }
+  .myTimeline .myTimelineItem h1 {
+    font-size: 20px !important;
+  }
+  .myTimeline .myTimelineItem .InnovatioCenter {
+    padding: 20px 25px !important;
+  }
+  .myTimeline .myTimelineItem .Zavie {
+    padding: 20px 25px !important;
+  }
+  /* myPortfolio */
+  .myPortfolio .items{
+    grid-template-columns: auto;
+  }
+  .sample-personal,
+  .sample-myBlogs,
+  .sample-calculator{
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-top: 3px solid var(--spanTextColor);
+    border-bottom: 3px solid var(--spanTextColor);
+  }
+
+  /* my Contact */
+
+  .MyContact .MyContactItems i {
+    font-size: 20px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 12px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* 720px */
+
+@media screen and (max-width: 720px) {
+  .home,
+  .aboutMe,
+  .mySkills,
+  .myTimeline,
+  .myPortfolio,
+  .MyContact {
+    width: 70%;
+  }
+  .title {
+    font-size: 10px;
+  }
+  /* home */
+  .home .myName {
+    padding: 13px !important;
+  }
+  .myName p {
+    font-size: 15px !important;
+  }
+  /* my skill */
+  .mySkills .mySkillsItem img {
+    width: 35px;
+    height: 35px;
+  }
+  /* myTimeline */
+  .myTimeline .myTimelineItem h2 {
+    font-size: 15px !important;
+  }
+  .myTimeline .myTimelineItem h1 {
+    font-size: 15px !important;
+  }
+  .myTimeline .myTimelineItem p {
+    font-size: 10px !important;
+  }
+  /* myPortfolio */
+  .myPortfolio img {
+    height: 90px !important;
+  }
+  .myPortfolio .items .icon-links i {
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+  }
+  /* my Contact */
+
+  .MyContact .MyContactItems i {
+    font-size: 15px !important;
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 10px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* 630px */
+
+@media screen and (max-width: 630px) {
+  
+  .main{
+    margin-left:30px !important;
+  }
+  .menubar .menubarItem{
+    width: 30px;
+  }
+  .menubar .menubarItem a i{
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+  }
+  .Item .items{
+    left: 30px;
+    width: 45px;
+    height: 250px;
+  }
+  .Item .items a i{ 
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .cv a button{
+    width: 130px;
+    font-size: 10px;
+  }
+  .cv a button i{
+    font-size: 10px;
+
+  }
+ 
+  /* home */
+  .home .myName {
+    padding: 15px !important;
+  }
+  .myName p {
+    font-size: 13px !important;
+  }
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    font-size: 13px !important;
+  }
+  /* my skill */
+  .mySkills .mySkillsItem img {
+    width: 25px;
+    height: 25px;
+  }
+  /* myTimeline */
+
+  .myTimeline .myTimelineItem h2 {
+    font-size: 13px !important;
+  }
+  .myTimeline .myTimelineItem h1 {
+    font-size: 13px !important;
+  }
+  .myTimeline .myTimelineItem p {
+    font-size: 8px !important;
+  }
+
+
+  /* my Contact */
+
+  .MyContact .MyContactItems i {
+    font-size: 13px !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .MyContact .items .MyContactItems h2 {
+    font-size: 8px !important;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* 580px */
+@media screen and (max-width: 580px) {
+
+  .title {
+    font-size: 8px;
+  }
+  /* home */
+
+  .home .myName {
+    padding: 13px;
+  }
+  .myName p {
+    font-size: 11px !important;
+  }
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    font-size: 13px !important;
+  }
+
+  /* myTimeline */
+  .myTimeline .myTimelineItem h2 {
+    font-size: 10px !important;
+  }
+  .myTimeline .myTimelineItem h1 {
+    font-size: 10px !important;
+  }
+  /* myPortfolio */
+  .myPortfolio .items .icon-links i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  /* my Contact */
+  .MyContact .items{
+    justify-items: center !important;
+  }
+  .MyContact .MyContactItems{
+    flex-direction: column;
+    width: 80% !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 1px solid var(--spanTextColor) !important;
+    border-left: 1px solid var(--spanTextColor) !important;
+    border-radius: 10px !important; 
+  }
+  .MyContact .MyContactItems i {
+    margin: 5px 0px !important;
+
+  }
+  .MyContact .items .MyContactItems h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .MyContact .items .sotioalMediya .icons a i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .MyContact .items .sotioalMediya{
+    flex-direction: column;
+  }
+}
+
+/* 520px */
+@media screen and (max-width: 520px) {
+
+  
+  /* home */
+
+  .home .myName {
+    padding: 10px;
+  }
+  .myName p {
+    font-size: 9px !important;
+  }
+  /* aboutMe */
+  .aboutMe .PersonalInformation p {
+    padding: 15px 25px;
+  }
+  .mySkills  .mySkillsItem {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  }
+}
+
+/* 430px */
+@media screen and (max-width:430px) {
+  .title {
+    font-size: 7px;
+  }
+  /* home */
+  .home .myName {
+    padding: 8px !important;
+  }
+  .myName p {
+    font-size: 8px !important;
+  }
+  /* about */
+  .aboutMe .PersonalInformation p {
+    padding: 15px 20px !important;
+    font-size: 10px !important;
+  }
+  /* myTimeline */
+  .myTimeline .myTimelineItem .InnovatioCenter{
+    padding: 20px 5px !important;
+
+  }
+  .myTimeline .myTimelineItem .Zavie{
+      padding: 20px 5px !important;
+    }
+
+}
