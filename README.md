@@ -2,4 +2,5 @@
 
 To view the demo click on the link : https://sahand-edrisi.github.io/personal-website/
 
-![personal-website](https://github.com/sahand-edc/personal-website/assets/107874587/80833b8e-6349-4919-8127-b87b98aeecfd)
+
+![Personal-webSite](https://github.com/Sahand-Edrisi/personal-website/assets/107874587/1597b226-878c-4174-82ec-f8fcc955e01f)
