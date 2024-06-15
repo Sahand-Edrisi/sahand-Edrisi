@@ -17,7 +17,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--spanTextColor);
+  background: var(--iconColor);
   border-radius: 10px;
 }
 
@@ -38,15 +38,11 @@ html {
   margin-left: 50px;
 }
 
-.backgroundImg {
-  position: absolute;
-}
-.backgroundImg img {
+body {
   width: 100%;
-  height: 120%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: fixed;
+  height: 150px;
+  background: rgb(24, 153, 25);
+  background: linear-gradient(90deg, rgb(24, 153, 25) 0%, rgb(21, 135, 10) 25%, rgb(67, 121, 9) 50%, rgb(191, 171, 4) 75%, rgb(249, 153, 4) 100%);
 }
 
 .title {

@@ -15,7 +15,7 @@ html {
   background-color: var(--gray);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--spanTextColor);
+  background: var(--iconColor);
   border-radius: 10px;
 }
 
@@ -35,15 +35,11 @@ html {
   justify-items: center;
   margin-left: 50px;
 }
-
-.backgroundImg {
-  position: absolute;
-  img {
-    width: 100%;
-    height: 120%;
-    object-fit: cover;
-    position: fixed;
-  }
+body{
+  width: 100%;
+  height: 150px;
+  background: rgb(24,153,25);
+  background: linear-gradient(90deg, rgba(24,153,25,1) 0%, rgba(21,135,10,1) 25%, rgba(67,121,9,1) 50%, rgba(191,171,4,1) 75%, rgba(249,153,4,1) 100%);
 }
 
 .title {
