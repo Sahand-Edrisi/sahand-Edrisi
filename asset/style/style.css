@@ -323,7 +323,9 @@ body {
 }
 .myPortfolio .items .sample-personal,
 .myPortfolio .items .sample-myBlogs,
-.myPortfolio .items .sample-calculator {
+.myPortfolio .items .sample-calculator,
+.myPortfolio .items .sudoku-table,
+.myPortfolio .items .Tic-Tac-Toe {
   border-right: 3px solid var(--spanTextColor);
   border-left: 3px solid var(--spanTextColor);
   margin: 20px 0;

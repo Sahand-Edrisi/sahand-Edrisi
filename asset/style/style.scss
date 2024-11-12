@@ -19,6 +19,7 @@ html {
   border-radius: 10px;
 }
 
+
 :root {
   --backgroundColor: #ecdddd;
   --textColor: #dfd7d7;
@@ -329,7 +330,9 @@ body{
     }
     .sample-personal,
     .sample-myBlogs,
-    .sample-calculator {
+    .sample-calculator,
+    .sudoku-table,
+    .Tic-Tac-Toe {
       border-right: 3px solid var(--spanTextColor);
       border-left: 3px solid var(--spanTextColor);
       margin: 20px 0;
