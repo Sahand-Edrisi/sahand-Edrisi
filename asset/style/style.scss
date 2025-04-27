@@ -19,7 +19,6 @@ html {
   border-radius: 10px;
 }
 
-
 :root {
   --backgroundColor: #ecdddd;
   --textColor: #dfd7d7;
@@ -36,15 +35,15 @@ html {
   justify-items: center;
   margin-left: 50px;
 }
-body{
+body {
   width: 100%;
   height: 150px;
-  .bgImage{
+  .bgImage {
     position: fixed;
     object-fit: cover;
     width: 100%;
     z-index: -10;
-    mask-repeat: no-repeat;    
+    mask-repeat: no-repeat;
     height: 100%;
   }
 }
@@ -56,7 +55,8 @@ body{
   text-align: center;
   font-weight: 900;
   color: var(--textColor);
-  text-shadow: 1px 1px 10px var(--spanTextColor), 1px 1px 10px var(--spanTextColor);
+  text-shadow: 1px 1px 10px var(--spanTextColor),
+    1px 1px 10px var(--spanTextColor);
 }
 
 .cv {
@@ -179,7 +179,7 @@ body{
   grid-template-columns: auto auto;
   justify-content: space-around;
   align-items: center;
-  opacity: .9;
+  opacity: 0.9;
   .bacImgMyPic {
     margin: 0 15px;
     background-color: var(--spanTextColor);
@@ -222,7 +222,7 @@ body{
   text-align: center;
   background-color: var(--backgroundColor);
   border-radius: 20px;
-  opacity: .9;
+  opacity: 0.9;
   .PersonalInformation {
     p {
       text-align: start;
@@ -238,7 +238,7 @@ body{
   width: 80%;
   margin: 15px 0px;
   border-radius: 20px;
-  opacity: .9;
+  opacity: 0.9;
   .mySkillsItem {
     padding: 20px 0px;
     display: flex;
@@ -259,7 +259,7 @@ body{
   background-color: var(--backgroundColor);
   border-radius: 20px;
   margin: 15px 0px;
-  opacity: .9;
+  opacity: 0.9;
   .myTimelineItem {
     display: grid;
     justify-content: space-around;
@@ -299,7 +299,7 @@ body{
   background-color: var(--backgroundColor);
   border-radius: 20px;
   margin: 15px 0px;
-  opacity: .9;
+  opacity: 0.9;
   .items {
     margin: 50px 0px;
     display: grid;
@@ -363,7 +363,7 @@ body{
   background-color: var(--backgroundColor);
   border-radius: 20px;
   margin: 15px 0px;
-  opacity: .9;
+  opacity: 0.9;
   .items {
     display: grid;
     text-align: center;
