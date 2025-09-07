@@ -258,7 +258,8 @@ body .bgImage {
   justify-content: space-around;
 }
 .myTimeline .myTimelineItem .InnovatioCenter,
-.myTimeline .myTimelineItem .Zavie, .myTimeline .myTimelineItem .Rotikala {
+.myTimeline .myTimelineItem .Zavie,
+.myTimeline .myTimelineItem .Rotikala {
   padding: 20px 70px;
   border-top: 3px solid var(--spanTextColor);
   border-bottom: 3px solid var(--spanTextColor);
@@ -266,7 +267,8 @@ body .bgImage {
   margin: 20px 0px;
 }
 .myTimeline .myTimelineItem .InnovatioCenter h2,
-.myTimeline .myTimelineItem .Zavie h2, .myTimeline .myTimelineItem .Rotikala h2 {
+.myTimeline .myTimelineItem .Zavie h2,
+.myTimeline .myTimelineItem .Rotikala h2 {
   color: var(--textColor);
   font-weight: 900;
   font-size: 25px;
@@ -274,13 +276,15 @@ body .bgImage {
   text-align: center;
 }
 .myTimeline .myTimelineItem .InnovatioCenter h1,
-.myTimeline .myTimelineItem .Zavie h1, .myTimeline .myTimelineItem .Rotikala h1 {
+.myTimeline .myTimelineItem .Zavie h1,
+.myTimeline .myTimelineItem .Rotikala h1 {
   color: var(--textColor);
   padding: 0 10px;
   text-align: center;
 }
 .myTimeline .myTimelineItem .InnovatioCenter p,
-.myTimeline .myTimelineItem .Zavie p, .myTimeline .myTimelineItem .Rotikala p {
+.myTimeline .myTimelineItem .Zavie p,
+.myTimeline .myTimelineItem .Rotikala p {
   color: var(--textColor);
   font-size: 15px;
   padding: 25px 0;
