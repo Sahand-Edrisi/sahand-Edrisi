@@ -235,15 +235,20 @@ body .bgImage {
   opacity: 0.9;
 }
 .mySkills .mySkillsItem {
-  padding: 20px 0px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-around;
 }
-.mySkills .mySkillsItem img {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  margin: 20px 0px;
+.mySkills .mySkillsItem h1 {
+  padding: 10px 20px;
+  border-top: 3px solid var(--spanTextColor);
+  border-bottom: 3px solid var(--spanTextColor);
+  border-radius: 65px;
+  margin: 20px 10px;
+  color: var(--textColor);
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
 }
 
 .myTimeline {
@@ -336,9 +341,16 @@ body .bgImage {
   display: flex;
   justify-content: space-around;
 }
-.myPortfolio .items .languages img {
-  width: 40px;
-  height: 40px;
+.myPortfolio .items .languages h1 {
+  padding: 5px 10px;
+  border-top: 3px solid var(--spanTextColor);
+  border-bottom: 3px solid var(--spanTextColor);
+  border-radius: 65px;
+  margin: 0px 0px;
+  color: var(--textColor);
+  font-weight: 900;
+  font-size: 10px;
+  text-align: center;
 }
 .myPortfolio .items .sample-Movie-website,
 .myPortfolio .items .sample-personal,
